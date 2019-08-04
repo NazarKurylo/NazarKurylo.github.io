@@ -1,0 +1,27 @@
+*{
+	padding: 0;
+	margin:0;
+}
+#container{
+	margin:0 auto;
+	width: 50%;
+	position: relative;
+}
+img{
+	width: 100%;
+}
+#next-item, #prev-item{
+	cursor: pointer;
+	position: absolute;
+	color:white;
+	padding: 10px;	
+	top:50%;
+	transform: translateY(-50%);
+}
+#next-item{
+	right: 0;
+}
+#next-item:hover, #prev-item:hover{
+	background-color: black;
+
+}
